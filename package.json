@@ -1,0 +1,32 @@
+{
+  "name": "express-mongodb-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js",
+    "build": "tsc && node dist/app.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simranferwani"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/mongoose": "^5.11.97",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
